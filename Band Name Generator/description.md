@@ -1,0 +1,1 @@
+This program is a simple Band Name Generator built using Python. It welcomes the user and asks for the name of the city they grew up in and the name of their pet. By combining these two inputs, the program generates a creative and personalized band name. This project demonstrates basic Python concepts such as user input, variables, string concatenation, and output formatting.
