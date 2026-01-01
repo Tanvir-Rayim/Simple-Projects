@@ -12,6 +12,8 @@ if height >= 120:
         ticket = 12
     if photo == "y":
         ticket += 3
+    else:
+        ticket += 0
     print(f"You can ride the rollercoaster! The ticket is ${ticket}")
 else:
     print("You can not ride the rollercoaster!")
