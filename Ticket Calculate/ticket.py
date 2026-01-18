@@ -2,12 +2,15 @@ print("Welcome to the rollercoaster!")
 height = int(input("What is your height in cm? "))
 age = int(input("What is your age? "))
 photo = input("Do you want to take a photo? (y/n) ")
+ticket = 0
 
 if height >= 120:
     if age < 12:
         ticket = 5
     elif 12 <= age <= 18:
         ticket = 7
+    elif 45 <= age <=55:
+        ticket = 0
     else:
         ticket = 12
     if photo == "y":
